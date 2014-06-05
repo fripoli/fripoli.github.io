@@ -7,7 +7,7 @@ comments: true
 
 If, like me, you are unlucky enough to work in a project where you have no choice but use Windows as your OS you might run into this.
 
-When attempting to ssh, or perform a git action also using ssh, and the host you connect to was for whatever reason updated and got a new ssh host key you get this error:
+When attempting to ssh, or perform a git action also using ssh, and the host you connect to was, for whatever reason, updated and got a new ssh host key you get this error:
 
 {% highlight shell %}
 WARNING - POTENTIAL SECURITY BREACH!
