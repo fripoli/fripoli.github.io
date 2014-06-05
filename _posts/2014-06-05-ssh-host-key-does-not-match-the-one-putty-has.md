@@ -8,7 +8,7 @@ If, like me, you are unlucky enough to work in a project where you have no choic
 
 When attempting to ssh, or perform a git action also using ssh, and the host you connect to was, for whatever reason, updated and got a new ssh host key you get this error:
 
-{% highlight shell %}
+{% highlight bash %}
 WARNING - POTENTIAL SECURITY BREACH!
 The server's host key does not match the one PuTTY has
 cached in the registry. This means that either the
@@ -31,9 +31,7 @@ Windows run -> regedit
 
 Navigate to
 
-{% highlight %}
 HKEY_CURRENT_USER\SoftWare\SimonTatham\PuTTY\SshHostKeys
-{% endhighlight %}
 
 Delete the key with the respective host name
 
