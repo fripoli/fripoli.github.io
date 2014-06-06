@@ -31,10 +31,10 @@ Windows run -> regedit
 
 Navigate to
 
-HKEY_CURRENT_USER\SoftWare\SimonTatham\PuTTY\SshHostKeys
+> HKEY_CURRENT_USER\SoftWare\SimonTatham\PuTTY\SshHostKeys
 
 Delete the key with the respective host name
 
 Now you might need to add the new host key. In my case I got it working with plink (PuTTY command line tool)
 
-plink -P PORT_NUMBER -v user@host.example.com
+> plink -P PORT_NUMBER -v user@host.example.com
