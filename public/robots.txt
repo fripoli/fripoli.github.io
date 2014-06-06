@@ -1,0 +1,2 @@
+User-agent: * 
+Sitemap: http://xico.ripoli.com.br/sitemap.xml
