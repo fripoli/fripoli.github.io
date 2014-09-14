@@ -4,17 +4,17 @@ title: Habilitando chamadas SIP/VoIP nativo no Motorola Moto G
 comments: true
 ---
 
-O celular Motorola Moto G por padrao nao permite fazer chamadas pela internet usando SIP/VoIP.
+O celular Motorola Moto G por padrão não permite fazer chamadas pela internet usando SIP/VoIP.
 
 Com esse guia iremos habilitar esse tipo de chamada sem termos que instalar nenhum app para isso.
 
-Os requisitos basicos sao:
+Os requisitos básicos são:
 
 - Bootloader desbloqueado
 - Root
-- Um gerenciador de arquivos com permissoes root
+- Um gerenciador de arquivos com permissões root
 
-Uma vez que seu sistema esteja pronto, navegue ate a pasta
+Uma vez que seu sistema esteja pronto, navegue até a pasta
 
 > /system/etc/permission
 
@@ -41,8 +41,8 @@ adicione uma linha para que fique da seguinte forma
 
 Salve o arquivo e reinicie o celular.
 
-Para configurar seu servico VoIP abra a tela para fazer chamada, abra o menu e selecione configuracoes de chamada. Em configuracoes de chamadas de internet configure sua conta.
+Para configurar seu serviço VoIP abra a tela para fazer chamada, abra o menu e selecione configurações de chamada. Em configurações de chamadas de internet configure sua conta.
 
-Configure tambem quando voce quer ser perguntado para fazer chamadas usando seu servico VoIP.
+Configure também quando você quer ser perguntado para fazer chamadas usando seu serviço VoIP.
 
-Pronto, agora voce pode selecionar chamadas pela internet quando ligar para alguem.
+Pronto, agora você pode selecionar chamadas pela internet quando ligar para alguém.
