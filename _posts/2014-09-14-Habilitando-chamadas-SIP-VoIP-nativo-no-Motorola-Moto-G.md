@@ -24,7 +24,7 @@ e abra o arquivo
 
 no final do arquivo, onde diz
 
-{% highlight %}
+{% highlight xml %}
 <permissions>
 	<feature name="android.software.sip" />
 </permissions>
@@ -32,7 +32,7 @@ no final do arquivo, onde diz
 
 adicione uma linha para que fique da seguinte forma
 
-{% highlight %}
+{% highlight xml %}
 <permissions>
 	<feature name="android.software.sip" />
 	<feature name="android.software.sip.voip"/>
